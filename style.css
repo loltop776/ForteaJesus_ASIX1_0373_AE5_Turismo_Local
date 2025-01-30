@@ -1,0 +1,35 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+
+}
+
+header, main, footer{
+
+    width: 100%;
+
+}
+
+aside {
+
+    width: 25%;
+
+}
+
+main {
+
+    display: flex;
+
+}
+
+#content {
+
+    width: 50%;
+
+}
