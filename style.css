@@ -325,3 +325,82 @@ article > h2{
     color: rgb(91, 173, 255);
 
 }
+
+
+
+/* Pie de página */
+
+footer{
+
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    main {
+
+        display: block;
+
+    }
+
+    aside{width: 100%;}
+    
+    #content{width: 100%;}
+
+    .gallery{display: block; width: 80%; margin: 10%;}
+
+    #gallery{width: 100%; margin-bottom: 10%;}
+
+    .gallery_image{margin: 0%;}
+
+    .gallery_image > img{
+
+        height: 30vh;
+
+    }
+
+    .gallery_image > h3 {
+
+        font-size: 30px;
+
+    }
+
+    .gallery_image > p{
+
+        font-size: 20px;
+
+    }
+
+    #melbourne > img {
+
+        height: 40vh;
+    
+    }
+
+    #ocean_road > img {
+
+        height: 40vh;
+    
+    }
+    
+    #flinders_street_station > img {
+
+        height: 40vh;
+    
+    }
+
+    #ACMI > img {
+
+        height: 40vh;
+    
+    }
+}
