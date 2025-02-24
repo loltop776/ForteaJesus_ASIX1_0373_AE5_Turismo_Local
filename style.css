@@ -1,8 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.style {
+    font-family: "Overpass", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
 * {
 
     box-sizing: border-box;
 
 }
+
+img{width: 100%;}
+
+a {text-decoration: none;}
+
+a:hover{color: blue;}
+
+li{ list-style-type:none; }
+
+li > a {
+
+    color:black;
+    font-size: 30px;
+
+}
+
+
+button {
+
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1%;
+    margin-bottom: 2%;
+    font-size: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius:10px;
+
+}
+
+button:hover{background-color: blue; color: aliceblue;}
 
 body {
 
@@ -10,10 +52,89 @@ body {
 
 }
 
-header, main, footer{
+#header_image {
+    width: 10%;
+    height: 50%;
+
+}
+
+header{
 
     width: 100%;
+    text-align: center;
+    height: 300px;
+    background-image: url(./img/fondo_encabezado.png);
+    color: white;
+    font-size: 500%;
+    align-content: center;
 
+}
+
+#content {
+    
+    width: 50%;
+
+}
+
+#first_content{
+    background-image: url(./img/back_galery.png);
+    padding-top: 5%;
+}
+
+h2 {
+
+    text-align: center;
+    font-size: 200%;
+    color: aliceblue;
+
+}
+
+.gallery {
+
+    display: flex;
+    width: 100%;
+    transition: all 1s ease;
+
+}
+
+.gallery_image {
+
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5%;
+    object-fit: cover;
+    background-color: white;
+    padding: 1%;
+    font-size: 70%;
+    transition: all 1s ease;
+
+}
+
+
+#gallery:hover{
+
+    width: 60%;
+    border: 2px solid black;
+    font-size: 100%;
+    transition: all 1s ease;
+    height: 500px;
+    background-color: dodgerblue;
+    color: aliceblue;
+
+}
+
+.gallery_image > img{
+
+    width: 100%;
+    border-radius: 5px;
+    transition: all 1s ease;
+    height: 160px;
+
+}
+
+p{
+    text-align: justify;
 }
 
 aside {
@@ -22,14 +143,185 @@ aside {
 
 }
 
-main {
+aside > h2 {
 
-    display: flex;
+    color: black;
 
 }
 
-#content {
+main {
 
-    width: 50%;
+    display: flex;
+    width: 100%;
+
+}
+
+
+
+/* Melbourne */
+
+article > h2{
+    
+    color: black;
+    font-size: 60px;
+
+}
+
+#melbourne > h3{
+
+    color: rgb(91, 173, 255);
+    font-size: 30px;
+
+}
+
+#melbourne > img {
+
+    border-radius: 15px;
+    border: 2px solid dodgerblue;
+    height: 60vh;
+
+}
+
+#melbourne > p {
+
+    font-size: 20px;
+
+}
+
+#title_melbourne{
+
+    color: dodgerblue;
+    font-size: 50px;
+
+}
+
+
+/* Ocean Road */
+
+#ocean_road > h3{
+
+    color: rgb(255, 198, 93);
+    font-size: 30px;
+
+}
+
+#title_ocean_road{
+
+    color: orange;
+    font-size: 50px;
+
+}
+
+#ocean_road > img {
+
+    border-radius: 15px;
+    border: 2px solid orange;
+    height: 60vh;
+
+}
+
+#ocean_road > p {
+
+    font-size: 20px;
+
+}
+
+
+
+/* Flinders Street Station */
+
+#flinders_street_station > h3{
+
+    color: rgb(75, 75, 255);
+    font-size: 30px;
+
+}
+
+#title_flinders_street_station{
+
+    color: blue;
+    font-size: 50px;
+
+}
+
+#flinders_street_station > img {
+
+    border-radius: 15px;
+    border: 2px solid blue;
+    height: 60vh;
+
+}
+
+#flinders_street_station > p {
+
+    font-size: 20px;
+
+}
+
+
+
+/* ACMI */
+
+#ACMI > h3{
+
+    color: rgb(159, 159, 159);
+    font-size: 30px;
+
+}
+
+#title_ACMI{
+
+    color: grey;
+    font-size: 50px;
+
+}
+
+#ACMI > img {
+
+    border-radius: 15px;
+    border: 2px solid grey;
+    height: 60vh;
+
+}
+
+#ACMI > p {
+
+    font-size: 20px;
+
+}
+
+
+/* Mapa población */
+
+#poblation_map > article > img {
+
+    border: 2px solid black;
+    border-radius: 15px;
+
+}
+
+
+
+/* Noticias */
+
+#news{
+
+    margin: 5%;
+    border: 2px solid dodgerblue;
+    border-radius: 15px;
+    padding: 5%;
+
+}
+
+#news > iframe {
+
+    width: 100%;
+
+}
+
+#news > h4 {
+
+    font-size: 20px;
+    color: rgb(91, 173, 255);
 
 }
